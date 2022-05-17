@@ -4,17 +4,20 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   background: #23252c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
   background-color: #1a1b21;
-  border-radius: 20px;
-  width: 500px;
-  max-width: 100%;
+  border-radius: 10px;
+  width: 400px;
+  height: 700px;
   overflow: hidden;
 }
 
@@ -22,13 +25,13 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
-  padding: 15px;
+  width: 150px;
+  padding-top: 20px;
 }
 
 .title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
   color: #ffffff;
   margin: 0;
@@ -36,16 +39,31 @@ img {
 
 .subheading {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 15px;
   line-height: 0.5px;
   text-align: center;
   color: #f3bf99;
 }
 
-.heading,
-.content {
+.info a {
+  font-size: 12px;
+}
+
+.about {
   color: #ffffff;
-  margin: 1.2rem;
+  margin: 20px;
+}
+
+.about h1 {
+  font-size: 25px;
+  padding: 6px 20px;
+  margin: 0;
+}
+
+.about p {
+  font-size: 12px;
+  padding: 0px 20px;
+  margin: 2px 0px;
 }
 
 a {
@@ -62,11 +80,11 @@ a {
 }
 
 .email-btn {
-  height: 46px;
+  height: 40px;
   width: 150px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 0 solid;
   color: black;
   display: flex;
@@ -79,11 +97,11 @@ a {
 }
 
 .linkedin-btn {
-  height: 46px;
+  height: 40px;
   width: 150px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   background: #0ea5e9;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 0 solid;
   color: white;
   margin: 1.5rem;
@@ -96,12 +114,12 @@ a {
   background-color: #161619;
   justify-content: center;
   display: flex;
-  padding: 10px;
+  padding: 5px;
 }
 
 .icons {
   width: auto;
-  height: 40px;
+  height: 30px;
   color: #918e9b;
   margin: 20px;
 }
