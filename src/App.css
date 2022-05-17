@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-color: white;
+  background: #23252c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,11 +12,7 @@ body {
 
 .container {
   background-color: #1a1b21;
-  box-shadow: 0 8px 32px 0 rgba(164, 166, 174, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
   width: 500px;
   max-width: 100%;
   overflow: hidden;
@@ -73,7 +69,13 @@ a {
   border-radius: 10px;
   border: 0 solid;
   color: black;
-  margin: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-text {
+  margin: 0px 5px;
 }
 
 .linkedin-btn {
@@ -85,6 +87,9 @@ a {
   border: 0 solid;
   color: white;
   margin: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer {
@@ -99,4 +104,10 @@ a {
   height: 40px;
   color: #918e9b;
   margin: 20px;
+}
+
+.single-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

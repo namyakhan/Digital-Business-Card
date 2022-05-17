@@ -10,10 +10,10 @@ export default function Info() {
       <a href="https://www.namyakhan.com/">namyakhan.com</a>
       <div className="btn">
         <button className="email-btn">
-          <FaEnvelopeSquare /> Email
+          <FaEnvelopeSquare /> <p className="btn-text"> Email</p>
         </button>
         <button className="linkedin-btn">
-          <FaLinkedinIn /> Linkedin
+          <FaLinkedinIn /> <p className="btn-text"> LinkedIn</p>
         </button>
       </div>
     </div>
