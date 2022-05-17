@@ -1,9 +1,9 @@
-import React from "react";
-import logo from "../images/profile-pic.png";
-import { FaLinkedinIn, FaEnvelopeSquare } from "react-icons/fa";
+import React from "react"
+import logo from "../images/profile-pic.png"
+import { FaLinkedinIn, FaEnvelopeSquare } from "react-icons/fa"
 export default function Info() {
   return (
-    <div>
+    <div className="info">
       <img src={logo} alt="Logo" />
       <h1 className="title">Namya Khan</h1>
       <p className="subheading">Frontend Developer</p>
@@ -17,5 +17,5 @@ export default function Info() {
         </button>
       </div>
     </div>
-  );
+  )
 }
