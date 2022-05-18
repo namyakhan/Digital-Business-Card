@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 export default function About() {
   return (
     <div className="about">
@@ -14,5 +14,5 @@ export default function About() {
         Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
       </p>
     </div>
-  )
+  );
 }
